@@ -1,20 +1,43 @@
 .About_Us {
   display: flex;
+ justify-content:center;
+ margin: 1rem 4rem;
+ padding: 4rem;
  
-  
-  
 
 
 }
 
 
 .About_Who{
-  
+    margin: 1rem 4rem;
+    padding: 4rem;
+    background-color:rgb(193, 40, 40);
+}
+
+.paragraf{
+font-size: 1.2rem;
 }
 
 
+.About_Work{
+  margin: 1rem 4rem;
+  padding: 4rem;
+  text-align: center;
+  background-color:salmon;
+  border-radius: 30px;
+  color: rgb(21, 18, 18);
+  font-size: larger;
+  line-height: 1.8;
 
+}
+
+
+.About_Work h4{
+  text-align: center;
+}
 
 .About_Work ul li {
   list-style-type: none;
+  width: max-content;
 }
