@@ -10,6 +10,7 @@
 .Navbar_Nav ul {
   display: flex;
   flex-direction: row;
+  color:white;
 }
 
 .Navbar_Nav ul li {
@@ -17,6 +18,12 @@
   list-style-type: none;
   text-decoration-style: none;
   font-size: 1.2rem;
+  color:white;
+}
+
+.Navbar_Nav Link {
+  text-decoration: none;
+  color:white;
 }
 
 .navbar_h1 {

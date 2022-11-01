@@ -1,5 +1,5 @@
 import React from "react";
-import {Link,} from "react-router-dom"
+import {Link} from "react-router-dom"
 import "../../App.css";
 import "./navbar.css"
 
@@ -11,9 +11,9 @@ const Navbar = () => {
         <Link to="https://github.com/aydogdu-ali" target="_blank">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/640-crescent-moon.svg/2048px-640-crescent-moon.svg.png"
-            width="80"
+            width="60"
            
-            alt=""
+            alt="MoonPicture"
           />
         </Link>
 
