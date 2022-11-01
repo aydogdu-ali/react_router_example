@@ -1,0 +1,37 @@
+.Header_Nav {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  border-bottom: 2px solid purple;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Navbar_Nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.Navbar_Nav ul li {
+  margin-right: 3rem;
+  list-style-type: none;
+  text-decoration-style: none;
+  font-size: 1.2rem;
+}
+
+.navbar_h1 {
+  color: antiquewhite;
+ 
+}
+
+.highlight {
+  color: darksalmon;
+}
+
+
+#branding{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+
+}

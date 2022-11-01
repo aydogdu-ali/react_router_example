@@ -1,0 +1,70 @@
+.Banner{
+    background-color: black;
+    opacity: 1;
+}
+
+
+
+.Banner_Picture{
+    background-image:url("../../assets/img/webdesi.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:top;
+    height: 20vw;
+    position: relative;
+    
+}
+
+.Banner_Baslık{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-45%, -50%);
+    background-color:antiquewhite;
+    color:rgb(6, 4, 4);
+    border-radius: 10px;
+    padding: 0 0.5rem;
+    padding-bottom: 0.5rem;
+    animation: animate 4s  alternate;
+    
+
+}
+
+.Banner_Paragraf{
+    position: absolute;
+    top: 56%;
+    left: 50%;
+     transform: translate(-51%, -50%);
+    font-weight: 700;
+   font-size:1.5rem ;
+   color: chocolate;
+   background-color:wheat;
+   border-radius: 10px;
+   padding: 0.3rem;
+   animation: animate1 5s  alternate;
+    
+}
+
+
+
+ @keyframes animate {        
+    from { left: 40rem; 
+    }
+
+    to 
+    { left:  80rem; } 
+  }
+
+  @keyframes animate1 {        
+    from { left: 40rem; 
+    }
+
+    to 
+    { left:  60rem; } 
+  }
+
+ 
+  
+  
+
+
