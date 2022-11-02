@@ -4,6 +4,7 @@ import CSS from "../assets/img/logo_css.png"
 import {useNavigate} from "react-router-dom"
 
 const Css = () => {
+  /*sayfa geçişlerinde useNavigete Hookunu kullandım*/
   const navigate = useNavigate()
   return (
     <div className='Card_Css'>
@@ -20,7 +21,7 @@ Bir Web sayfası içerisinde birbiriyle uyumlu birkaç renk ve birkaç yazı tip
 
 <p> CSS kodları, HTML kodlarının içine yazılabildiği gibi harici bir CSS dosyası oluşturularak da işlem yaptırılabilir. Türüne göre BODY veya HEAD bölümlerinde yer alabilirler. Ayrıca <link rel="stylesheet" type="text/css" href="style.css" /> koduyla CSS dosyası çalışma sayfasına eklenebilir. Onları ayrı dosyada veya dosyalarda saklamak, onları değişik HTML sayfalarınca kullanılmasını sağlar, aynı sayfanın değişik aygıtlara göre formatlandırılmasını kolaylaştırır, sunumla yapıyı ayırarak değişiklik yapılmasını sağlar.</p>
 
-
+{/*sayfa içinde iken tıklandığında bir önceki sayfaya geçişini sağlıyorum*/}
 <button onClick = {()=> navigate(-1)}className="Css_Button"> Geri Dön</button>
 
     </div>

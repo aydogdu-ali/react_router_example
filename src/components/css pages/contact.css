@@ -1,50 +1,43 @@
-.form_contact{
-    text-align: center;
+.form_contact {
+  text-align: center;
 }
 
-.input_Form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap:.5rem;
-    margin-top:0.5rem
+.input_Form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
 }
 
-.input_Form input{
-    text-align: center;
-    width: 20rem;
-    height: 2rem;
-    margin: auto;
-
-}   
-
-
-
-.input_textarea{
-    padding-top: 2rem;
-    width: 20rem;
-    margin: auto;
-    resize: none;
-    text-align: center;
+.input_Form input {
+  text-align: center;
+  width: 20rem;
+  height: 2rem;
+  margin: auto;
 }
 
-
-.TextArea{
-    margin-top: 1.5rem;
+.input_textarea {
+  padding-top: 2rem;
+  width: 20rem;
+  margin: auto;
+  resize: none;
+  text-align: center;
+  font-size: 1.2rem;
 }
 
-
-.Contact_Button, .Submit{
-    background-color: salmon;
-    border-radius: 10px;
-    margin-top: 2rem;
-    margin-right: 1rem;
-    padding: .9rem;
-    width: 10rem;
-    font-size: 1.2rem;
-    gap:3
-  
+.TextArea {
+  margin-top: 1.5rem;
 }
 
-
-
+.Contact_Button,
+.Submit {
+  background-color: salmon;
+  border-radius: 10px;
+  margin-top: 2rem;
+  margin-right: 1rem;
+  padding: 0.9rem;
+  width: 10rem;
+  font-size: 1.2rem;
+  gap: 3;
+}

@@ -4,6 +4,7 @@ import "../components/css pages/html.css"
 import {useNavigate} from "react-router-dom"
 
 const Html = () => {
+   /*sayfa geçişlerinde useNavigete Hookunu kullandım*/
   const navigate = useNavigate()
   return (
     <div className='Card_Html'>
@@ -18,7 +19,7 @@ const Html = () => {
 
 <p> Küçüktür ve büyüktür işaretleri arasına yazılan HTML komutları kullanılarak yazılır. İşaretlenen metnin başını ve sonunu belirtmek için çoğunlukla çift olarak kullanılırlar  ancak işaretlemek yerine metnin bir yerine bir işaret konacaksa tek olarak da kullanılabilirler.</p>
 
-
+{/*sayfa içinde iken tıklandığında bir önceki sayfaya geçişini sağlıyorum*/}
 <button onClick = {()=> navigate(-1)}className="Html_Button"> Geri Dön</button>
 
     </div>

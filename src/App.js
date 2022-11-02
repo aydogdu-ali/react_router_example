@@ -12,15 +12,17 @@ import Css from "./pages/Css"
 import Javascript from "./pages/Javascript";
 import Contact from "./pages/Contact";
 
+// React-Router yapısı ile tüm sayfaları kapsadım.
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+      {/*Her sayfada gösterilecek olan Navbar ve Footeru kapsam dışına aldım*/}
       <Navbar />
       <Routes> 
 
       <Route path = "/" element ={<Home/>}/>
-
+    {/*Nested roting işlemlerinde her bir sayfa için ayrı bir parth açtım.*/}
 <Route path="/html" element = {<Html/>}/>
 <Route path="/css" element = {<Css/>}/>
 <Route path="/Javascript" element = {<Javascript/>}/>
@@ -30,6 +32,7 @@ function App() {
       <Route path = "/service" element ={<Service/>}/>
       <Route path = "/contact" element ={<Contact/>}/>
       </Route>
+      {/*Kullanıcı elle ya da sayfanın hata vermesi durumunda hata mesajı verdim.*/}
       <Route path = "*" element ={<NotFound/>}/>
      
      </Routes>

@@ -7,6 +7,7 @@ import {useNavigate,Outlet} from "react-router-dom"
 
 
 const Service = () => {
+  // tıklandığında hangi sayfaya gideceğini belirttim. 
   const navigate = useNavigate()
   return (
 <div> 
