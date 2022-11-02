@@ -12,6 +12,7 @@
 .box {
    width: 30%;
    margin: auto;
+  
 
     
 }
@@ -19,6 +20,7 @@
 .box img {
   width: 140px;
   border-radius: 10%;
+  cursor: pointer;
 }
 
 .box p {

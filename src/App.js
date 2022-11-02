@@ -7,6 +7,9 @@ import Home from "./pages/Home";
 import Service from "./pages/Service";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
+import Html from "./pages/Html"
+import Css from "./pages/Css"
+import Js from "./pages/Css"
 
 function App() {
   return (
@@ -16,6 +19,11 @@ function App() {
       <Routes> 
 
       <Route path = "/" element ={<Home/>}/>
+
+<Route path="/html" element = {<Html/>}/>
+<Route path="/css" element = {<Css/>}/>
+<Route path="/js" element = {<Js/>}/>
+      <Route />
       <Route path = "/about" element ={<About/>}/>
       <Route path = "/service" element ={<Service/>}/>
       <Route path = "*" element ={<NotFound/>}/>
