@@ -1,5 +1,5 @@
 
-import {BrowserRouter ,Routes,Route, Navigate} from "react-router-dom"
+import {BrowserRouter ,Routes,Route} from "react-router-dom"
 import Navbar from "./components/navbar/Navbar"
 import './App.css';
 import Footer from "./components/footer/Footer"
@@ -27,7 +27,7 @@ function App() {
       <Route path = "/about" element ={<About/>}/>
       <Route path = "/service" element ={<Service/>}/>
       <Route path = "*" element ={<NotFound/>}/>
-      <Route path = "/" element ={<Navigate to ="https://github.com/aydogdu-ali"/>}/>
+     
      </Routes>
      <Footer/>
      </BrowserRouter>

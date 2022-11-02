@@ -10,7 +10,7 @@
 .Navbar_Nav ul {
   display: flex;
   flex-direction: row;
-  color:white;
+  color:rgb(68, 50, 188);
 }
 
 .Navbar_Nav ul li {
@@ -21,10 +21,7 @@
   color:white;
 }
 
-.Navbar_Nav Link {
-  text-decoration: none;
-  color:white;
-}
+
 
 .navbar_h1 {
   color: antiquewhite;
