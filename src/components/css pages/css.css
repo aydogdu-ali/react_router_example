@@ -1,0 +1,27 @@
+.Card_Css{
+    margin: 3rem;
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+
+
+
+
+.Card_Css img{
+ margin-top: 1rem;   
+}
+
+.Css_Button{
+    background-color: salmon;
+    border-radius: 10px;
+    padding: .9rem;
+    width: 8rem;
+    font-size: 1.2rem;
+  
+}
+
+.Css_Button:hover {
+    transform: scale(0.97) ;
+    cursor: pointer;
+}

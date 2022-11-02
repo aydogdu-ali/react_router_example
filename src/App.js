@@ -9,7 +9,7 @@ import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 import Html from "./pages/Html"
 import Css from "./pages/Css"
-import Js from "./pages/Css"
+import Javascript from "./pages/Javascript";
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
 
 <Route path="/html" element = {<Html/>}/>
 <Route path="/css" element = {<Css/>}/>
-<Route path="/js" element = {<Js/>}/>
+<Route path="/Javascript" element = {<Javascript/>}/>
       <Route />
       <Route path = "/about" element ={<About/>}/>
       <Route path = "/service" element ={<Service/>}/>
