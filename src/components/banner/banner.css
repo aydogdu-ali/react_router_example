@@ -24,7 +24,8 @@
     color:rgb(6, 4, 4);
     border-radius: 10px;
     padding: 0 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.4rem;
+    
     animation: animate 5s  alternate;
     
 
@@ -40,7 +41,8 @@
    color: chocolate;
    background-color:wheat;
    border-radius: 10px;
-   padding: 0.3rem;
+   
+   padding: 0.2rem;
    animation: animate1 5s  alternate;
     
 }

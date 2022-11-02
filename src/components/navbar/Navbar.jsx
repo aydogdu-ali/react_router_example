@@ -25,14 +25,14 @@ const Navbar = () => {
         </div>
         <nav className="Navbar_Nav ">
           <ul>
-            <li>
-              <Link to ="/" >AnaSayfa</Link>
+            <li >
+              <Link to ="/" className="navbar_li" >AnaSayfa</Link>
             </li>
             <li>
-              <Link to ="/about">Hakkımızda</Link>
+              <Link to ="/about" className="navbar_li">Hakkımızda</Link>
             </li>
             <li>
-              <Link to ="/service">Hizmetlerimiz</Link>
+              <Link to ="/service" className="navbar_li" >Hizmetlerimiz</Link>
             </li>
           </ul>
         </nav>
