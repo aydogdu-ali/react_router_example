@@ -1,5 +1,5 @@
 .Card_js{
-    margin: 3rem;
+    margin: 2.1rem;
     text-align: center;
     padding: 2rem;
     font-size: 1.2rem;
@@ -16,6 +16,7 @@
     background-color: salmon;
     border-radius: 10px;
     padding: .9rem;
+    margin-top: 1rem;
     width: 8rem;
     font-size: 1.2rem;
   

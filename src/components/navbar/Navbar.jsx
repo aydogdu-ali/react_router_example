@@ -1,21 +1,23 @@
 import React from "react";
-import {Link} from "react-router-dom"
+import {Link,} from "react-router-dom"
 import "../../App.css";
 import "./navbar.css"
+// import {useNavigate} from "react-router-dom"
 
 const Navbar = () => {
+  
   return (
     <header>
       <div className="container Header_Nav">
         <div id="branding">
-        <Link to="https://github.com/aydogdu-ali" target="_blank">
+        <a href="https://github.com/aydogdu-ali?tab=repositories" target="_blank" rel="noopener noreferrer">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/640-crescent-moon.svg/2048px-640-crescent-moon.svg.png"
             width="60"
            
             alt="MoonPicture"
           />
-        </Link>
+        </a>
 
           <h1 className="navbar_h1">
             

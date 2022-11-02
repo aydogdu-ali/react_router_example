@@ -1,7 +1,7 @@
 import React from "react";
 import "../../App.css";
-import { Link } from "react-router-dom";
-import "./footer.css"
+
+import "./footer.css";
 
 const Footer = () => {
   return (
@@ -9,14 +9,18 @@ const Footer = () => {
       <footer>
         <p>Moonborn Web Design, Copyright &copy; 2022</p>
         <br />
-        <Link to="https://github.com/aydogdu-ali" target="_blank">
+        <a
+          href="https://github.com/aydogdu-ali?tab=repositories"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/640-crescent-moon.svg/2048px-640-crescent-moon.svg.png"
             width="400"
             height="50"
-            alt=""
+            alt="Moon"
           />
-        </Link>
+        </a>
       </footer>
     </div>
   );
