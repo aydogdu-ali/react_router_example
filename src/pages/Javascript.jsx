@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Js = () => {
+const Javascript = () => {
   return (
     <div>khjkhjkhjkhkhk</div>
   )
 }
 
-export default Js;
+export default Javascript;

@@ -28,7 +28,7 @@ const Card = () => {
          </p>
        </div>
        <div className="box box1">
-         <img src={JS} alt="" onClick={()=>navigate("/js")}/>
+         <img src={JS} alt="" onClick={()=>navigate("/Javascript")}/>
          <h3>JS</h3>
          <p>
          JavaScript(JS), HTML ve CSS ile birlikte World Wide Web'in temel teknolojilerinden biri olan programlama dilidir .  Web sitelerinin %97'sinden fazlası, web sayfası hareketleri için istemci tarafında JavaScript kullanırlar.  
