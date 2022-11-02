@@ -3,8 +3,11 @@ import {data} from "../assets/data"
 import "../components/css pages/service.css"
 import Subscribe from "../components/subscribe/Subscribe"
 import Contact from "../assets/img/contact.png"
+import {useNavigate,Outlet} from "react-router-dom"
+
 
 const Service = () => {
+  const navigate = useNavigate()
   return (
 <div> 
     <Subscribe/>
@@ -22,11 +25,11 @@ const Service = () => {
 
     </div>
      <div className="bilgi">
-      <img  className='img1' src={Contact} alt="concat" /> 
+      <img  onClick={()=>navigate("/contact")} className='img1' src={Contact} alt="concat" /> 
      <p className='info'>Bilgi almak için lütfen iletişime geçiniz!</p>
       </div>
     
-   
+   <Outlet/>
     </div>
   )
  

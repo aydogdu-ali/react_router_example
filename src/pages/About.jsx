@@ -34,9 +34,9 @@ const About = () => {
         <li>İhtiyaçlarınızın Tespiti</li>
         <li>Analiz </li>
         <li>Tasarım</li>
-        <li>Yasarımın Uygulanması</li>
+        <li>Tasarımın Uygulanması</li>
         <li>Test ve Otomasyon</li>
-        <li>Teslimat ve Teknik Destek</li>
+        <li>Teslim ve Teknik Destek</li>
        </ul> 
        </div>
         

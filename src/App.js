@@ -10,6 +10,7 @@ import NotFound from "./pages/NotFound";
 import Html from "./pages/Html"
 import Css from "./pages/Css"
 import Javascript from "./pages/Javascript";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -25,7 +26,10 @@ function App() {
 <Route path="/Javascript" element = {<Javascript/>}/>
       <Route />
       <Route path = "/about" element ={<About/>}/>
+      <Route>
       <Route path = "/service" element ={<Service/>}/>
+      <Route path = "/contact" element ={<Contact/>}/>
+      </Route>
       <Route path = "*" element ={<NotFound/>}/>
      
      </Routes>
